@@ -46,11 +46,37 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 10px;
-  gap: 15px;
+  gap: 25px;
 }
 
 .filter-btn {
   padding: 5px;
   margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  margin: 40px 10px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 35px;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0 10px;
+}
+
+.filter {
+  display: flex;
+}
+
+.search-btn {
   cursor: pointer;
 }
