@@ -19,6 +19,7 @@
 }
 
 .nav-items > ul > li {
+  text-decoration: none;
   padding: 10px;
   margin: 10px;
 }
