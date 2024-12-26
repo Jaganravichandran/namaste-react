@@ -18,7 +18,8 @@ class About extends Component {
     return (
       <div>
         <h1>About</h1>
-        <UserClass name={"Jagan Vasanth"} location={"Coimbatore"} />
+        <UserClass name={"First"} location={"Coimbatore"} />
+        <UserClass name={"Second"} location={"Coimbatore"} />
       </div>
     );
   }
