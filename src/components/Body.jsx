@@ -14,8 +14,6 @@ const Body = () => {
 
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
-  console.log(listOfRestaurant);
-
   useEffect(() => {
     fetchData();
   }, []);
@@ -42,7 +40,7 @@ const Body = () => {
   return listOfRestaurant.length === 0 ? (
     <Shimmer />
   ) : (
-    <div>
+    <div className="container mx-auto">
       <div className="flex items-center justify-center">
         <div className="m-2 p-2 flex">
           <input

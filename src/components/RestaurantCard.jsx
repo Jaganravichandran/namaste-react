@@ -25,11 +25,11 @@ const RestaurantCard = (props) => {
 // Input =>> RestaurantCard >>> RestaurantCardPromoted
 
 export const withPromotedLabel = (RestaurantCard) => {
-  return () => {
+  return (props) => {
     return (
       <div>
         <label htmlFor="">Promoted</label>
-        <RestaurantCard />
+        <RestaurantCard {...props} />
       </div>
     );
   };
