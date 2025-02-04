@@ -57,4 +57,4 @@ Footer
 - Installed jsdom library
 - Installed @babel/preset-react - to make jsx work in test cases
 - Include @babel/preset-react inside our babel config
-- Install @testing-library/jest-dom
+- Install npm i -D @testing-library/jest-dom
